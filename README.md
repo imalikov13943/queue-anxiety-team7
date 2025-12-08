@@ -1,2 +1,3 @@
-# queue-anxiety-team7
-An AI agent learns to choose the optimal checkout line under uncertainty—where customers have random service speeds, delays, and unpredictable behavior. The environment is modeled as an MDP, and the agent is trained using Q-learning and SARSA, with heuristic strategies used as baselines.
+# Queue Anxiety RL Agent
+Intelligent queue selection using Reinforcement Learning in a stochastic supermarket environment.
+This project models the real-world phenomenon of “queue anxiety,” where customers must choose a checkout line without knowing how long each queue will actually take. Each customer in a queue has a different service speed and may trigger random delays (e.g., coupon search, price check, returning to shelves), creating uncertainty and making naive heuristics unreliable.
